@@ -1,0 +1,44 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="header_div col-xs-12 text-center">
+      <h2>Sound Controlled Animals</h2>
+      <p>Note: Play different sounds like meow, bark</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button onclick="Start_Classification()" class="btn btn-warning">Start</button>
+        <h2 id="sound_name">Animal Sound - </h2>
+        <h3 id="accuracy">Accuracy - </h3>
+        <br>
+        <img id="cat" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9AiAA_yuyoEEccZ1xuJjIbpYj00_JXHudA&usqp=CAU" width="300" height="350">
+        <img id="dog" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIsZLG7smcHbInO3jwlRA0c_iBrfaFzs8sA&usqp=CAU" width="300" height="350">
+      </center>
+      </div>
+      <div class="copyright_footer">
+        <h3>Developed by - Sanaya Mishra</h3>
+      </div>  
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
